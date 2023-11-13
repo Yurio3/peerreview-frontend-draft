@@ -1,0 +1,6 @@
+1. install
+npm install -g json-server
+
+2.start json-server
+json-server --watch db.json --port 5001
+

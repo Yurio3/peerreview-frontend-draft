@@ -1,0 +1,60 @@
+
+.sidebarFriend {
+    padding: 40px;
+    margin-bottom: 40px;
+    border: solid #90A4AE;
+    border-radius: 10px;
+    list-style: none;
+}
+
+img.sidebarFriendImg {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*Responsiveness*/
+
+@media only screen and (max-width:992px){
+    .sidebar{
+        flex: 1;
+        .sidebarWrapper{
+            padding: 17px;
+
+            .sidebarButton{
+                display: none;
+            }
+
+            .sidebarHr{
+                display: none;
+            }
+        }
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    ::-webkit-scrollbar-track{
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .sidebar{
+        display: block;
+
+        .sidebarWrapper{
+            padding: 3px;
+        }
+    }
+}
+@media only screen and (max-width:576px){
+    .sidebar{
+        display: none;
+    }
+}
