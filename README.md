@@ -1,6 +1,6 @@
 # PeerReview, Frontend, Draft, yg82
 
-Thank you very much for your patience. Since my data is present locally, I can't deploy it on top of the static website surge, so I can't interact on the surge page. Thank you for using this way of reviewing my front-end draft assignments.
+Thank you very much for your patience. The surge deployment web page crashes, won't open links, and my data is present locally. I can't deploy it on top of the static website surge, so I can't interact on the surge page. Thank you for using this way of reviewing my front-end draft assignments.
 
 # 1: download the code to open the project
 
